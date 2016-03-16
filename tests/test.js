@@ -2,7 +2,7 @@
 // use command karma start karma.conf.js  to run the tests
 describe('test matchers available', function() {
    //Matcher toBe and not.toBe
-
+   //use xit to skip a sped and xdescribe to skip the suite
     it("The 'toBe' matcher compares with ===", function() {
       var a = 12;
       var b = a;
