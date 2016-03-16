@@ -7,4 +7,8 @@ angular.module('testApp',[]).controller('testAppController',function($scope){
 		else
 			$scope.result='';
 	}
+}).filter('reversing', function() {
+  return function(text) {
+    return text.split("").reverse().join("");
+  };
 });
